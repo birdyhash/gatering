@@ -13,7 +13,6 @@ the chamber also records the route taken by the payload,
 allowing the caller to inspect the execution path after
 processing is complete.
 */
-
 type Gate struct {
 	Name string
 	Run  func([]byte) []byte
